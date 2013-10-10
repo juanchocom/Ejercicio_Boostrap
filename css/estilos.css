@@ -1,0 +1,95 @@
+
+nav .navbar-nav{
+text-align: center;
+
+margin-left: 20%;
+width: 60%;
+}
+.navbar-nav li {
+	font-family: tahoma;
+	font-size: 12pt;
+	margin-right: 10%;
+
+	
+}
+
+
+
+
+
+#caja{
+	height: 70px;
+	margin-top: 1em;
+	padding-top: 0.8em;
+	border: solid;
+	border-radius: 1em;
+	border-color: gray;
+	
+
+}
+
+.galeria .modal-body img{
+width: 100%;
+}
+#caja1{
+	background-color: red;
+	border-radius: 40px;
+	width: 50px;
+	height: 50px;
+
+}
+
+@media all and (max-width: 767px) {
+
+  
+
+.galeria li {
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+	padding: 0.2em;
+
+}
+
+.galeria li img{
+	width: 100%;
+}
+
+
+}
+
+
+.imagenes:hover{
+	background-color: white;
+	opacity: 20%;
+}
+
+banner img {
+	width: 100%;
+}
+
+
+
+ .galeria li{
+ 	width: 25%;
+ 	list-style: none;
+ 	display: inline-block;
+ 	margin-top: 1em;
+ 	margin-left: 5%;
+
+ }
+ .galeria img {
+ 	width: 95%;
+ 	padding-bottom: 1em;
+ }
+
+ footer{
+ 	color: white;
+ 	margin-top: 1em;
+ 	background: black;
+ 	border-radius: 1em;
+ }
+
+ footer p{
+ 	text-align: center;
+ }
